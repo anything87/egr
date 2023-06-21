@@ -3,9 +3,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 START_MESSAGE = '''**Hello, {}
-I Am tnlinks.in Bot , Bulk Link Converter. I Can Convert Links Directly From Your tnlinks.in Account,
+I Am amrobots.online Bot , Bulk Link Converter. I Can Convert Links Directly From Your amrobots.online Account,
     
-1. Go To 👉 https://tnlinks.in/member/tools/api 
+1. Go To 👉 https://amrobots.online/member/tools/api 
 
 2. Than Copy API Key
 
@@ -26,7 +26,7 @@ Example:** `/set_api cbd63775f798fe0e58c67a56e6ce8b70c495cda4`
 
 
 HELP_MESSAGE = '''
-**Hey! My name is {firstname}. I am a Tnlinks Pro Shortener Bot.**
+**Hey! My name is {firstname}. I am a amrobots Pro Shortener Bot.**
 
 Features 
 
@@ -40,7 +40,7 @@ Helpful commands:
 
 - /start: Starts me! You've probably already used this.
 - /help: Sends this message; I'll tell you more about myself!
-If You Have Any Problem Then Contact - @TN92FF
+If You Have Any Problem Then Contact - @AM_ROBOTS
 
 Available commands:
 
@@ -63,11 +63,11 @@ ABOUT_TEXT = """
 
 `🧰 Framework:` [Pyrogram](https://github.com/pyrogram/pyrogram)
 
-`👨‍💻 Developer:` [Anonymous](t.me/TN92FF)
+`👨‍💻 Developer:` [Anonymous](t.me/AM_ROBOTS)
 
-`📢 Support:` [DK BOTZ SUPPORT](https://t.me/TnlinksUrlShortener)
+`📢 Support:` [AM-ROBOTS](https://t.me/amrobots_bots)
 
-`🌐 Source Code:` **[Click Here](https://t.me/TN92FF)**
+`🌐 Source Code:` **[Click Here](https://t.me/AM_ROBOTS)**
 """
 
 
@@ -147,7 +147,7 @@ BACK_REPLY_MARKUP = InlineKeyboardMarkup([
 ])
 
 USER_ABOUT_MESSAGE = """
-- Website: [{base_site}](https://tnlinks.in/ref/Greymatter658)
+- Website: [{base_site}](https://amrobots.online/ref/admin)
 
 - {base_site} API: {shortener_api}
 
@@ -168,7 +168,7 @@ SHORTENER_API_MESSAGE = """To add or update your Shortner Website API,
             
 Ex: `/set_api cbd63775f798fe0e58c67a56e6ce8b70c495cda4`
 
-Get API From [{base_site}](https://tnlinks.in/ref/Greymatter658)
+Get API From [{base_site}](https://amrobots.online/ref/admin)
 
 Current {base_site} API: `{shortener_api}`"""
 
